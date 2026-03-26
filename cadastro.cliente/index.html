@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CRUD de Clientes</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Cadastro de Clientes</h1>
+
+    <form id="form-cliente">
+      <input type="text" id="nome" placeholder="Nome" required />
+      <input type="email" id="email" placeholder="E-mail" required />
+      <button type="submit" id="btn-submit">Cadastrar</button>
+    </form>
+
+    <p id="mensagem"></p>
+
+    <h2>Lista de Clientes</h2>
+    <ul id="lista-clientes"></ul>
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
